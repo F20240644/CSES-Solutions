@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 int main(){
     long long n;
@@ -12,4 +12,5 @@ int main(){
         else n/=2;
     }
     std::cout<<n<<"\n";
+    return 0;
 }
