@@ -17,7 +17,7 @@ int main(){
     }
     for(int i=0;i<m;i++) std::cin>>t[i];
     for(int x : t){
-        auto it = std::lower_bound(h.begin(),h.end(),x);
+        auto it = h.lower_bound(x);
         if(*it==x){
             std::cout<<x<<"\n";
             h.erase(it);
