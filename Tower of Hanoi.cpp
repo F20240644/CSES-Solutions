@@ -1,7 +1,9 @@
 #include <iostream>
 
-void foo(int n, int st, int help, int end) {
-    if (n == 1) {
+void foo(int n, int st, int help, int end)
+{
+    if (n == 1)
+    {
         std::cout << st << " " << end << "\n";
         return;
     }
@@ -10,9 +12,10 @@ void foo(int n, int st, int help, int end) {
     foo(n - 1, help, st, end);
 }
 
-int main(){
+int main()
+{
     int n;
-    std::cin>>n;
+    std::cin >> n;
     std::cout << (1 << n) - 1 << "\n";
     foo(n, 1, 2, 3);
 }
