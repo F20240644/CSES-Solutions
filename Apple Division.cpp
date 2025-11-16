@@ -3,6 +3,8 @@
 #include <algorithm>
 #include <climits>
 
+//testing stuff
+
 #define ll long long
 
 void foo(std::vector<ll> &v, ll i, ll &ans, ll l, ll r)
